@@ -1,0 +1,60 @@
+<style>
+
+body{
+    background-color:#ADD8E6;
+    font-family:Arial;
+}
+
+h1{
+    text-align:center;
+    color:rgb(46, 5, 29);
+}
+
+form{
+    background-color:white;
+    width:320px;
+    margin:auto;
+    padding:20px;
+    border:2px solid grey;
+}
+
+fieldset{
+    border:1px solid grey;
+}
+
+input{
+    width:95%;
+    padding:6px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    width:95%;
+    background-color:lightgrey;
+    font-weight:bold;
+}
+
+.links{
+    width:320px;
+    margin:20px auto;
+    background-color:white;
+    border:2px solid grey;
+    padding:12px;
+    text-align:center;
+}
+
+.links a{
+    text-decoration:none;
+    color:darkblue;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.links a:hover{
+    color:blue;
+}
+
+</style>
+</body>
