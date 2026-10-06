@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudentHub - Events</title>
+
+    <link rel="stylesheet" href="events.css">
+</head>
+<body>
+
+    <body>
+
+    <h1>StudentHub</h1>
+
+    <h2>College Events</h2>
+
+    <!-- Search -->
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search events..."
+    >
+
+    <!-- Filter -->
+    <select id="categoryFilter">
+        <option value="All">All Categories</option>
+        <option value="Technical">Technical</option>
+        <option value="Cultural">Cultural</option>
+        <option value="Sports">Sports</option>
+        <option value="Workshop">Workshop</option>
+    </select>
+
+    <!-- Sort -->
+    <select id="sortSelect">
+        <option value="default">Sort By</option>
+        <option value="name">Name (A-Z)</option>
+        <option value="date">Date (Earliest)</option>
+    </select>
+
+    <div id="eventsContainer">
+        Loading events...
+    </div>
+
+    <script src="events.js"></script>
+
+</body>
+
+</body>
+</html>
