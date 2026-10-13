@@ -1,0 +1,225 @@
+body {
+    background-color: #ADD8E6;
+    font-family: Arial;
+    margin: 20px;
+    transition: 0.4s;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    border: 2px solid grey;
+    text-align: center;
+    position: relative;
+}
+
+h1, h2 {
+    color: #00008B;
+}
+
+.login {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.login a {
+    color: #00008B;
+    font-weight: bold;
+}
+
+#notification {
+    background-color: #FFFACD;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+#closeNotification {
+    margin-left: 15px;
+}
+
+#themeButton {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+}
+
+#menuButton {
+    margin-top: 10px;
+    padding: 6px 10px;
+}
+
+nav {
+    background-color: white;
+    border: 2px solid grey;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+nav table {
+    width: 100%;
+}
+
+nav a {
+    color: #00008B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mainImage {
+    margin-top: 15px;
+}
+
+.mainImage img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.slider,
+.admission,
+.faqPage {
+    background-color: white;
+    border: 2px solid grey;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.slider {
+    text-align: center;
+}
+
+#slide {
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.faqQuestion {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #F5F5F5;
+    border: 1px solid grey;
+    font-weight: bold;
+}
+
+.faqAnswer {
+    display: none;
+    padding: 10px;
+}
+
+.faqAnswer.show {
+    display: block;
+}
+
+.admission {
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* Modal */
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modalContent {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    margin: 120px auto;
+    border: 2px solid grey;
+    text-align: center;
+}
+
+
+/* =========================
+   DARK THEME
+   ========================= */
+
+body.dark {
+    background-color: #202124;
+    color: #E6E6E6;
+}
+
+body.dark header,
+body.dark nav,
+body.dark section,
+body.dark footer,
+body.dark main,
+body.dark .faqSection,
+body.dark .faqIntro,
+body.dark .faqHelp {
+    background-color: #2B2D30;
+    color: #E6E6E6;
+    border-color: #55585C;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+    color: #9CCBFF;
+}
+
+body.dark p {
+    color: #E6E6E6;
+}
+
+body.dark a {
+    color: #9CCBFF;
+}
+
+body.dark a:hover {
+    color: #C7E3FF;
+}
+
+body.dark hr {
+    border-color: #55585C;
+}
+
+
+/* FAQ */
+
+body.dark .faqQuestion {
+    background-color: #35373B;
+    color: #E6E6E6;
+    border-color: #55585C;
+}
+
+body.dark .faqAnswer {
+    background-color: #2B2D30;
+    color: #E6E6E6;
+}
+
+
+/* Buttons */
+
+body.dark button {
+    background-color: #3A3D42;
+    color: #E6E6E6;
+    border-color: #666970;
+}
+
+body.dark button:hover {
+    background-color: #45484E;
+}
