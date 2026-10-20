@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "name": "Hackathon",
+        "category": "Technical",
+        "department": "Computer Engineering",
+        "date": "2026-10-01",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Hackathon"
+    },
+    {
+        "id": 2,
+        "name": "Coding Competition",
+        "category": "Technical",
+        "department": "Computer Science",
+        "date": "2026-10-02",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Coding Competition"
+    },
+    {
+        "id": 3,
+        "name": "AI Workshop",
+        "category": "Technical",
+        "department": "Information Technology",
+        "date": "2026-10-03",
+        "venue": "Computer Lab",
+        "description": "StudentHub college event: AI Workshop"
+    },
+    {
+        "id": 4,
+        "name": "Cybersecurity Seminar",
+        "category": "Technical",
+        "department": "Electronics",
+        "date": "2026-10-04",
+        "venue": "Open Ground",
+        "description": "StudentHub college event: Cybersecurity Seminar"
+    },
+    {
+        "id": 5,
+        "name": "Robotics Exhibition",
+        "category": "Technical",
+        "department": "Mechanical",
+        "date": "2026-10-05",
+        "venue": "Sports Ground",
+        "description": "StudentHub college event: Robotics Exhibition"
+    },
+    {
+        "id": 6,
+        "name": "Web Development Workshop",
+        "category": "Technical",
+        "department": "Civil",
+        "date": "2026-10-06",
+        "venue": "Innovation Lab",
+        "description": "StudentHub college event: Web Development Workshop"
+    },
+    {
+        "id": 7,
+        "name": "Tech Quiz",
+        "category": "Technical",
+        "department": "Computer Engineering",
+        "date": "2026-10-07",
+        "venue": "Activity Hall",
+        "description": "StudentHub college event: Tech Quiz"
+    },
+    {
+        "id": 8,
+        "name": "App Development Contest",
+        "category": "Technical",
+        "department": "Computer Science",
+        "date": "2026-10-08",
+        "venue": "Exhibition Hall",
+        "description": "StudentHub college event: App Development Contest"
+    },
+    {
+        "id": 9,
+        "name": "Cloud Computing Seminar",
+        "category": "Technical",
+        "department": "Information Technology",
+        "date": "2026-10-09",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Cloud Computing Seminar"
+    },
+    {
+        "id": 10,
+        "name": "Data Science Bootcamp",
+        "category": "Technical",
+        "department": "Electronics",
+        "date": "2026-10-10",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Data Science Bootcamp"
+    },
+    {
+        "id": 11,
+        "name": "Cultural Night",
+        "category": "Cultural",
+        "department": "Mechanical",
+        "date": "2026-10-11",
+        "venue": "Computer Lab",
+        "description": "StudentHub college event: Cultural Night"
+    },
+    {
+        "id": 12,
+        "name": "Dance Competition",
+        "category": "Cultural",
+        "department": "Civil",
+        "date": "2026-10-12",
+        "venue": "Open Ground",
+        "description": "StudentHub college event: Dance Competition"
+    },
+    {
+        "id": 13,
+        "name": "Music Festival",
+        "category": "Cultural",
+        "department": "Computer Engineering",
+        "date": "2026-10-13",
+        "venue": "Sports Ground",
+        "description": "StudentHub college event: Music Festival"
+    },
+    {
+        "id": 14,
+        "name": "Drama Competition",
+        "category": "Cultural",
+        "department": "Computer Science",
+        "date": "2026-10-14",
+        "venue": "Innovation Lab",
+        "description": "StudentHub college event: Drama Competition"
+    },
+    {
+        "id": 15,
+        "name": "Photography Contest",
+        "category": "Cultural",
+        "department": "Information Technology",
+        "date": "2026-10-15",
+        "venue": "Activity Hall",
+        "description": "StudentHub college event: Photography Contest"
+    },
+    {
+        "id": 16,
+        "name": "Traditional Day",
+        "category": "Cultural",
+        "department": "Electronics",
+        "date": "2026-10-16",
+        "venue": "Exhibition Hall",
+        "description": "StudentHub college event: Traditional Day"
+    },
+    {
+        "id": 17,
+        "name": "Fashion Show",
+        "category": "Cultural",
+        "department": "Mechanical",
+        "date": "2026-10-17",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Fashion Show"
+    },
+    {
+        "id": 18,
+        "name": "Poetry Competition",
+        "category": "Cultural",
+        "department": "Civil",
+        "date": "2026-10-18",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Poetry Competition"
+    },
+    {
+        "id": 19,
+        "name": "Cricket Tournament",
+        "category": "Sports",
+        "department": "Computer Engineering",
+        "date": "2026-10-19",
+        "venue": "Computer Lab",
+        "description": "StudentHub college event: Cricket Tournament"
+    },
+    {
+        "id": 20,
+        "name": "Football Tournament",
+        "category": "Sports",
+        "department": "Computer Science",
+        "date": "2026-10-20",
+        "venue": "Open Ground",
+        "description": "StudentHub college event: Football Tournament"
+    },
+    {
+        "id": 21,
+        "name": "Volleyball Tournament",
+        "category": "Sports",
+        "department": "Information Technology",
+        "date": "2026-10-21",
+        "venue": "Sports Ground",
+        "description": "StudentHub college event: Volleyball Tournament"
+    },
+    {
+        "id": 22,
+        "name": "Basketball Tournament",
+        "category": "Sports",
+        "department": "Electronics",
+        "date": "2026-10-22",
+        "venue": "Innovation Lab",
+        "description": "StudentHub college event: Basketball Tournament"
+    },
+    {
+        "id": 23,
+        "name": "Athletics Meet",
+        "category": "Sports",
+        "department": "Mechanical",
+        "date": "2026-10-23",
+        "venue": "Activity Hall",
+        "description": "StudentHub college event: Athletics Meet"
+    },
+    {
+        "id": 24,
+        "name": "Badminton Tournament",
+        "category": "Sports",
+        "department": "Civil",
+        "date": "2026-10-24",
+        "venue": "Exhibition Hall",
+        "description": "StudentHub college event: Badminton Tournament"
+    },
+    {
+        "id": 25,
+        "name": "Chess Competition",
+        "category": "Sports",
+        "department": "Computer Engineering",
+        "date": "2026-10-25",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Chess Competition"
+    },
+    {
+        "id": 26,
+        "name": "Table Tennis Tournament",
+        "category": "Sports",
+        "department": "Computer Science",
+        "date": "2026-11-01",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Table Tennis Tournament"
+    },
+    {
+        "id": 27,
+        "name": "Entrepreneurship Talk",
+        "category": "Workshop",
+        "department": "Information Technology",
+        "date": "2026-11-02",
+        "venue": "Computer Lab",
+        "description": "StudentHub college event: Entrepreneurship Talk"
+    },
+    {
+        "id": 28,
+        "name": "Resume Building Workshop",
+        "category": "Workshop",
+        "department": "Electronics",
+        "date": "2026-11-03",
+        "venue": "Open Ground",
+        "description": "StudentHub college event: Resume Building Workshop"
+    },
+    {
+        "id": 29,
+        "name": "Public Speaking Workshop",
+        "category": "Workshop",
+        "department": "Mechanical",
+        "date": "2026-11-04",
+        "venue": "Sports Ground",
+        "description": "StudentHub college event: Public Speaking Workshop"
+    },
+    {
+        "id": 30,
+        "name": "Leadership Workshop",
+        "category": "Workshop",
+        "department": "Civil",
+        "date": "2026-11-05",
+        "venue": "Innovation Lab",
+        "description": "StudentHub college event: Leadership Workshop"
+    },
+    {
+        "id": 31,
+        "name": "Career Guidance Session",
+        "category": "Workshop",
+        "department": "Computer Engineering",
+        "date": "2026-11-06",
+        "venue": "Activity Hall",
+        "description": "StudentHub college event: Career Guidance Session"
+    },
+    {
+        "id": 32,
+        "name": "Financial Literacy Workshop",
+        "category": "Workshop",
+        "department": "Computer Science",
+        "date": "2026-11-07",
+        "venue": "Exhibition Hall",
+        "description": "StudentHub college event: Financial Literacy Workshop"
+    },
+    {
+        "id": 33,
+        "name": "Time Management Workshop",
+        "category": "Workshop",
+        "department": "Information Technology",
+        "date": "2026-11-08",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Time Management Workshop"
+    },
+    {
+        "id": 34,
+        "name": "Communication Skills Workshop",
+        "category": "Workshop",
+        "department": "Electronics",
+        "date": "2026-11-09",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Communication Skills Workshop"
+    },
+    {
+        "id": 35,
+        "name": "Guest Lecture",
+        "category": "Academic",
+        "department": "Mechanical",
+        "date": "2026-11-10",
+        "venue": "Computer Lab",
+        "description": "StudentHub college event: Guest Lecture"
+    },
+    {
+        "id": 36,
+        "name": "Project Exhibition",
+        "category": "Academic",
+        "department": "Civil",
+        "date": "2026-11-11",
+        "venue": "Open Ground",
+        "description": "StudentHub college event: Project Exhibition"
+    },
+    {
+        "id": 37,
+        "name": "Research Seminar",
+        "category": "Academic",
+        "department": "Computer Engineering",
+        "date": "2026-11-12",
+        "venue": "Sports Ground",
+        "description": "StudentHub college event: Research Seminar"
+    },
+    {
+        "id": 38,
+        "name": "Industrial Visit Orientation",
+        "category": "Academic",
+        "department": "Computer Science",
+        "date": "2026-11-13",
+        "venue": "Innovation Lab",
+        "description": "StudentHub college event: Industrial Visit Orientation"
+    },
+    {
+        "id": 39,
+        "name": "Academic Poster Presentation",
+        "category": "Academic",
+        "department": "Information Technology",
+        "date": "2026-11-14",
+        "venue": "Activity Hall",
+        "description": "StudentHub college event: Academic Poster Presentation"
+    },
+    {
+        "id": 40,
+        "name": "Innovation Fair",
+        "category": "Academic",
+        "department": "Electronics",
+        "date": "2026-11-15",
+        "venue": "Exhibition Hall",
+        "description": "StudentHub college event: Innovation Fair"
+    },
+    {
+        "id": 41,
+        "name": "Mathematics Challenge",
+        "category": "Academic",
+        "department": "Mechanical",
+        "date": "2026-11-16",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Mathematics Challenge"
+    },
+    {
+        "id": 42,
+        "name": "Department Seminar",
+        "category": "Academic",
+        "department": "Civil",
+        "date": "2026-11-17",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Department Seminar"
+    },
+    {
+        "id": 43,
+        "name": "Open Source Contribution Day",
+        "category": "Technical",
+        "department": "Computer Engineering",
+        "date": "2026-11-01",
+        "venue": "Computer Lab",
+        "description": "StudentHub college event: Open Source Contribution Day"
+    },
+    {
+        "id": 44,
+        "name": "Digital Art Competition",
+        "category": "Cultural",
+        "department": "Computer Science",
+        "date": "2026-11-02",
+        "venue": "Open Ground",
+        "description": "StudentHub college event: Digital Art Competition"
+    },
+    {
+        "id": 45,
+        "name": "Yoga and Fitness Day",
+        "category": "Sports",
+        "department": "Information Technology",
+        "date": "2026-11-03",
+        "venue": "Sports Ground",
+        "description": "StudentHub college event: Yoga and Fitness Day"
+    },
+    {
+        "id": 46,
+        "name": "Interview Preparation Session",
+        "category": "Workshop",
+        "department": "Electronics",
+        "date": "2026-11-04",
+        "venue": "Innovation Lab",
+        "description": "StudentHub college event: Interview Preparation Session"
+    },
+    {
+        "id": 47,
+        "name": "Science Model Exhibition",
+        "category": "Academic",
+        "department": "Mechanical",
+        "date": "2026-11-05",
+        "venue": "Activity Hall",
+        "description": "StudentHub college event: Science Model Exhibition"
+    },
+    {
+        "id": 48,
+        "name": "UI/UX Design Challenge",
+        "category": "Technical",
+        "department": "Civil",
+        "date": "2026-11-06",
+        "venue": "Exhibition Hall",
+        "description": "StudentHub college event: UI/UX Design Challenge"
+    },
+    {
+        "id": 49,
+        "name": "Intercollege Debate",
+        "category": "Cultural",
+        "department": "Computer Engineering",
+        "date": "2026-11-07",
+        "venue": "Main Auditorium",
+        "description": "StudentHub college event: Intercollege Debate"
+    },
+    {
+        "id": 50,
+        "name": "Badminton Championship",
+        "category": "Sports",
+        "department": "Computer Science",
+        "date": "2026-11-08",
+        "venue": "Seminar Hall",
+        "description": "StudentHub college event: Badminton Championship"
+    }
+]

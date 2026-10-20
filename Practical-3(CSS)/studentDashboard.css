@@ -1,0 +1,168 @@
+body {
+
+    background-color: #ADD8E6;
+
+    font-family: Arial;
+
+    margin: 20px;
+
+}
+
+
+/* Header */
+
+header {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    padding: 15px;
+
+    text-align: center;
+
+    position: relative;
+
+}
+
+h1 {
+
+    color: #00008B;
+
+    font-size: 32px;
+
+}
+
+header p {
+
+    margin: 5px;
+
+}
+
+
+/* Logout */
+
+.logout {
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 20px;
+
+}
+
+.logout a {
+
+    color: darkblue;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+/* Welcome */
+
+.welcome {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+}
+
+.welcome h2 {
+
+    color: #00008B;
+
+}
+
+
+/* Dashboard Options */
+
+.dashboardOptions {
+
+    width: 90%;
+
+    margin: 20px auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+
+.option {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    width: 300px;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+.option h3 {
+
+    color: #00008B;
+
+}
+
+
+.option {
+    background-color: white;
+    border: 2px solid grey;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Back Button */
+
+.backButton {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    padding: 10px 15px;
+
+    width: fit-content;
+
+    margin: 20px auto;
+
+}
+
+
+.backButton a {
+
+    color: darkblue;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}

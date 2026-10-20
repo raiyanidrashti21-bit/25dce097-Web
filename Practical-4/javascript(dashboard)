@@ -1,0 +1,292 @@
+// ============================
+// NOTIFICATION
+// ============================
+
+const closeNotification =
+    document.getElementById("closeNotification");
+
+const notification =
+    document.getElementById("notification");
+
+
+if (closeNotification && notification) {
+
+    closeNotification.addEventListener("click", function () {
+
+        notification.style.display = "none";
+
+    });
+
+}
+
+
+// ============================
+// CONTENT SLIDER
+// ============================
+
+const slides = [
+
+    {
+        title: "Welcome to StudentHub",
+        text: "Explore university information and student services."
+    },
+
+    {
+        title: "Student Opportunities",
+        text: "Explore campus activities and student opportunities."
+    },
+
+    {
+        title: "Academic Services",
+        text: "Check fees, library information and university notices."
+    }
+
+];
+
+
+let currentSlide = 0;
+
+const slide =
+    document.getElementById("slide");
+
+
+if (slide) {
+
+    function showSlide() {
+
+        slide.innerHTML =
+            "<h3>" +
+            slides[currentSlide].title +
+            "</h3>" +
+
+            "<p>" +
+            slides[currentSlide].text +
+            "</p>";
+
+    }
+
+
+    const next =
+        document.getElementById("next");
+
+    const previous =
+        document.getElementById("previous");
+
+
+    if (next) {
+
+        next.addEventListener("click", function () {
+
+            currentSlide++;
+
+            if (currentSlide >= slides.length) {
+
+                currentSlide = 0;
+
+            }
+
+            showSlide();
+
+        });
+
+    }
+
+
+    if (previous) {
+
+        previous.addEventListener("click", function () {
+
+            currentSlide--;
+
+            if (currentSlide < 0) {
+
+                currentSlide = slides.length - 1;
+
+            }
+
+            showSlide();
+
+        });
+
+    }
+
+}
+
+
+// ============================
+// FAQ
+// ============================
+
+const questions =
+    document.querySelectorAll(".faqQuestion");
+
+
+questions.forEach(function (question) {
+
+    question.addEventListener("click", function () {
+
+        const answer =
+            question.nextElementSibling;
+
+        answer.classList.toggle("show");
+
+    });
+
+});
+
+
+// ============================
+// ADMISSION MODAL
+// ============================
+
+const admissionButton =
+    document.getElementById("admissionButton");
+
+const modal =
+    document.getElementById("modal");
+
+const closeModal =
+    document.getElementById("closeModal");
+
+
+if (admissionButton && modal) {
+
+    admissionButton.addEventListener("click", function () {
+
+        modal.style.display = "block";
+
+    });
+
+}
+
+
+if (closeModal && modal) {
+
+    closeModal.addEventListener("click", function () {
+
+        modal.style.display = "none";
+
+    });
+
+}
+
+
+// Close modal when clicking outside the box
+
+if (modal) {
+
+    modal.addEventListener("click", function (event) {
+
+        if (event.target === modal) {
+
+            modal.style.display = "none";
+
+        }
+
+    });
+
+}
+
+
+// ============================
+// DARK / LIGHT MODE
+// ============================
+
+const themeButton =
+    document.getElementById("themeButton");
+
+
+function applyTheme() {
+
+    const savedTheme =
+        localStorage.getItem("theme");
+
+
+    if (savedTheme === "dark") {
+
+        document.body.classList.add("dark");
+
+        if (themeButton) {
+
+            themeButton.innerHTML = "Light";
+
+        }
+
+    }
+
+    else {
+
+        document.body.classList.remove("dark");
+
+        if (themeButton) {
+
+            themeButton.innerHTML = "Dark";
+
+        }
+
+    }
+
+}
+
+
+if (themeButton) {
+
+    themeButton.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark");
+
+
+        if (document.body.classList.contains("dark")) {
+
+            localStorage.setItem("theme", "dark");
+
+            themeButton.innerHTML = "Light";
+
+        }
+
+        else {
+
+            localStorage.setItem("theme", "light");
+
+            themeButton.innerHTML = "Dark";
+
+        }
+
+    });
+
+
+    applyTheme();
+
+}
+
+
+// ============================
+// HAMBURGER MENU
+// ============================
+
+const menuButton =
+    document.getElementById("menuButton");
+
+const menu =
+    document.getElementById("mainNav");
+
+
+if (menuButton && menu) {
+
+    menuButton.addEventListener("click", function () {
+
+        if (menu.style.display === "none") {
+
+            menu.style.display = "block";
+
+        }
+
+        else {
+
+            menu.style.display = "none";
+
+        }
+
+    });
+
+} 

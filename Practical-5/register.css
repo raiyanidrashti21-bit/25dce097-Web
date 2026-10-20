@@ -1,0 +1,239 @@
+/* =========================
+   BASIC PAGE
+   ========================= */
+
+body {
+    background-color: #ADD8E6;
+    font-family: Arial;
+    margin: 20px;
+    color: #222222;
+}
+
+
+/* =========================
+   BACK BUTTON
+   ========================= */
+
+.backButton {
+    margin-bottom: 15px;
+}
+
+.backButton a {
+    color: #00008B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.backButton a:hover {
+    color: #0000FF;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: white;
+    border: 2px solid #808080;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #00008B;
+    margin: 5px;
+}
+
+header p {
+    margin: 5px;
+}
+
+
+/* =========================
+   FORM
+   ========================= */
+
+main {
+    width: 600px;
+    margin: auto;
+}
+
+form {
+    background-color: white;
+    border: 2px solid #808080;
+    padding: 25px;
+}
+
+form h2 {
+    color: #00008B;
+    margin-top: 0;
+}
+
+.formIntro {
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   LABELS
+   ========================= */
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   INPUTS
+   ========================= */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 96%;
+    padding: 9px;
+    border: 1px solid #808080;
+    font-size: 15px;
+}
+
+
+/* =========================
+   RADIO AND CHECKBOX
+   ========================= */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+}
+
+
+/* =========================
+   GENDER
+   ========================= */
+
+fieldset {
+    margin-top: 20px;
+    border: 1px solid #808080;
+    padding: 15px;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+legend {
+    color: #00008B;
+    font-weight: bold;
+}
+
+
+/* =========================
+   ERROR MESSAGE
+   ========================= */
+
+.error {
+    display: block;
+    color: #B00020;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+
+/* =========================
+   PASSWORD STRENGTH
+   ========================= */
+
+.passwordMeter {
+    width: 96%;
+    height: 8px;
+    background-color: #D3D3D3;
+    margin-top: 8px;
+}
+
+#strengthBar {
+    height: 8px;
+    width: 0%;
+}
+
+#strengthText {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+/* =========================
+   TERMS
+   ========================= */
+
+.terms {
+    margin-top: 15px;
+}
+
+.terms label {
+    display: block;
+    font-weight: normal;
+}
+
+
+/* =========================
+   BUTTONS
+   ========================= */
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 9px 20px;
+    margin-right: 10px;
+    border: 1px solid #808080;
+    background-color: #D3D3D3;
+    color: #222222;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C0C0C0;
+}
+
+
+/* =========================
+   SUCCESS MESSAGE
+   ========================= */
+
+#successMessage {
+    color: #006400;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* =========================
+   INVALID INPUT
+   ========================= */
+
+input.invalid,
+select.invalid {
+    border: 2px solid #B00020;
+}
+
+
+/* =========================
+   VALID INPUT
+   ========================= */
+
+input.valid,
+select.valid {
+    border: 2px solid #228B22;
+}
