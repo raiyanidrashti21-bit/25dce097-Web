@@ -1,0 +1,119 @@
+body {
+
+    background-color: #ADD8E6;
+
+    font-family: Arial;
+
+    margin: 20px;
+
+}
+
+
+/* Back Button */
+
+.backButton {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    padding: 10px 15px;
+
+    width: fit-content;
+
+    margin-bottom: 20px;
+
+}
+
+.backButton a {
+
+    text-decoration: none;
+
+    color: darkblue;
+
+    font-weight: bold;
+
+}
+
+
+/* Header */
+
+header {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+h1 {
+
+    color: #00008B;
+
+}
+
+header p {
+
+    margin-bottom: 5px;
+
+}
+
+
+/* Profile Sections */
+
+.profile {
+
+    background-color: white;
+
+    border: 2px solid grey;
+
+    width: 90%;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+}
+
+.profile h2 {
+
+    color: #00008B;
+
+    text-align: center;
+
+}
+
+
+/* Table */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+
+    border: 1px solid grey;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+th {
+
+    background-color: lightgrey;
+
+    width: 35%;
+
+}
+

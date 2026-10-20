@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .faq-answer
+        {
+             display: none;
+        }
+        .show
+        {
+               display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="faq">
+    <button class="faq-question">
+        what is student hub?
+    </button>
+    <div class="faq-answer">
+         it is a protal for student.
+    </div><br>
+    
+    <button class="faq-question">
+        what is student hub?
+    </button>
+    <div class="faq-answer">
+         it is a protal for student.
+    </div><br>
+    <button class="faq-question">
+        what is student hub?
+    </button>
+    <div class="faq-answer">
+         it is a protal for student.
+    </div><br>
+    </div>
+   
+    <script>
+         var btns=document.querySelectorAll('.faq-question');
+         var answer=document.querySelectorAll('.faq-answer');
+         btns.forEach(function(btn){
+        btn.addEventListener("click",function(){
+          var result=btn.nextElementSibling;
+            result.classList.toggle("show");
+         })
+        })
+        
+    </script>
+    
+</body>
+</html>
+<!--body {
+
+    background-color: #ADD8E6;
+
+    font-family: Arial;
+
+    margin: 20px;
+
+    transition: 0.4s;
+
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+header{
+    background-color:#FFFFFF;
+    padding:15px;
+    border:2px solid #808080;
+    text-align:center;
+    position:relative;
+}
+}
+.login{
+    position:absolute;
+    top:15px;
+    right:15px;
+}
+
+/* StudentHub */
+
+header h1 {
+
+    color: #00008B;
+
+    font-size: 32px;
+
+    margin-bottom: 5px;
+
+}
+
+
+/* Student Portal Dashboard */
+
+header p {
+
+    margin-top: 0;
+
+}
+
+
+/* Login */
+
+header a {
+
+    color: #00008B;
+
+    font-weight: bold;
+
+}
+
+
+/* ================= NAVIGATION ================= */
+
+nav {
+
+    background-color: #FFFFFF;
+
+    border: 2px solid #808080;
+
+    margin-top: 15px;
+
+    padding: 10px;
+
+}
+
+
+/* Make navigation horizontal */
+
+nav table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+nav td {
+
+    text-align: center;
+
+    padding: 8px;
+
+}
+
+
+nav a {
+
+    color: #00008B;
+
+    font-weight: bold;
+
+}
+
+
+/* ================= IMAGE ================= */
+
+section {
+
+    margin-top: 15px;
+
+    background-color: #FFFFFF;
+
+    border: 2px solid #808080;
+
+}
+
+
+/* Make image fit the section */
+
+section img {
+
+    display: block;
+
+    width: 100%;
+
+    height: 400px;
+
+    object-fit: cover;
+
+}
+
+
+/* ================= BUTTON ================= */
+
+button {
+
+    cursor: pointer;
+
+}
+
+
+/* ================= THEME BUTTON ================= */
+
+.themeButton {
+
+    position: fixed;
+
+    top: 15px;
+
+    right: 15px;
+
+    width: 60px;
+
+    padding: 5px;
+
+    font-size: 12px;
+
+    z-index: 1000;
+
+}
+
+
+/* ================= MENU BUTTON ================= */
+
+#menuButton {
+
+    padding: 6px 10px;
+
+    margin-top: 10px;
+
+    font-size: 13px;
+
+}
+
+
+/* ================= DARK MODE ================= */
+
+body.dark {
+
+    background-color: #222222;
+
+    color: #FFFFFF;
+
+}
+
+
+body.dark header,
+
+body.dark nav,
+
+body.dark section {
+
+    background-color: #333333;
+
+    color: #FFFFFF;
+
+}
+
+
+body.dark h1,
+
+body.dark h2,
+
+body.dark h3 {
+
+    color: #FFFFFF;
+
+}
+
+
+body.dark nav a,
+
+body.dark header a {
+
+    color: #ADD8E6;
+
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+
+    nav table {
+
+        width: 100%;
+
+    }
+
+    nav td {
+
+        padding: 6px;
+
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    nav table {
+
+        display: block;
+
+        overflow-x: auto;
+
+        white-space: nowrap;
+
+    }
+
+    nav td {
+
+        display: table-cell;
+
+    }
+
+}
+.backButton {
+    background-color:#FFFFFF;
+    border:2px solid #808080;
+    padding:10px 15px;
+    width:fit-content;
+    margin-bottom:15px;
+}
+
+.backButton a {
+    color:#00008B;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.backButton a:hover {
+    color:#0000FF;
+}-->

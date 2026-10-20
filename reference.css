@@ -1,0 +1,148 @@
+/* Basic CSS */
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+
+/* Header */
+
+header {
+    background-color: #234;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+/* Main */
+
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #234;
+}
+
+
+/* Club Cards */
+
+.club-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.club-card {
+    background-color: white;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.club-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.club-card:hover {
+    box-shadow: 0 0 10px gray;
+}
+
+
+/* Button */
+
+button {
+    padding: 10px 20px;
+    background-color: #234;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Gallery */
+
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 220px;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #234;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .club-container {
+        flex-direction: column;
+    }
+
+    .club-card {
+        width: auto;
+    }
+
+}
